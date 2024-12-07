@@ -3,7 +3,7 @@
 const Navbar = () => {
     return (
         <>
-            <div className="flex justify-between p-10 w-3/4 mx-auto">
+            <div className="flex justify-between px-16 py-10 w-3/4 mx-auto">
                 <div className=" font-bold items-center justify-right text-center text-xl">Logo</div>
                 <div className="w-2/4 ">
                     <ul className="flex space-x-10 h-full">
