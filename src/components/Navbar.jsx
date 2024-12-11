@@ -3,17 +3,17 @@
 const Navbar = () => {
     return (
         <>
-            <div className="flex justify-between px-16 py-10 w-3/4 mx-auto">
-                <div className=" font-bold items-center justify-right text-center text-xl">Logo</div>
-                <div className="w-2/4 ">
-                    <ul className="flex space-x-10 h-full">
-                        <li className="flex-1 text-right font-Embed text-xl">About</li>
-                        <li className="flex-1 text-right font-Embed text-xl">Careers</li>
-                        <li className="flex-1 text-right font-Embed text-xl">Contact</li>
+            <div className="flex justify-between p-16">
+                <div className=" font-Embed text-center text-3xl lg:text-4xl md:text-3xl sm:text-3xl">Dev-X-u</div>
+                <div>
+                    <ul className="h-full hidden sm:hidden md:flex">
+                        <li className="flex-1 text-right font-Embed lg:text-3xl md:text-2xl px-5">About</li>
+                        <li className="flex-1 text-right font-Embed lg:text-3xl md:text-2xl px-5">Experience</li>
+                        <li className="flex-1 text-right font-Embed lg:text-3xl md:text-2xl px-5">Projects</li>
+                        <li className="flex-1 text-right font-Embed lg:text-3xl md:text-2xl px-5">Contact</li>
                     </ul>
                 </div>
             </div>
-            <div className="border-b border-gray-400 w-3/4 mx-auto"></div>
         </>
     )
 }
