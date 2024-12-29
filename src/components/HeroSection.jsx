@@ -1,14 +1,28 @@
-// import headshot from '../assets/headShot.jpg'
+import headshot from '../assets/headShot.jpg'
 import Navbar from "../components/Navbar"
 const HeroSection = () => {
     return (
         <>
-            <div className='flex flex-col'>
+            <div className='flex flex-col min-h-screen'>
                 <Navbar />
-                <div className='min-h-100 flex-1 sm:block md:block lg:flex-auto overflow-hidden'>
-                    <div className='bg-blue-500 flex'>Hello </div>
+                <div className="block lg:flex flex-grow space-evenly gap-20 justify-center">
+                    <div className='justify-items-center content-center w-1/4 '>
+                        <img className='rounded-full' src={headshot} />
+                    </div>
 
-                    <div className='bg-green-500'>world</div>
+                    <section className='justify-items-center content-center'>
+                        <h3 className='text-lg'>Hello I'm</h3>
+                        <h1>Utkarsh More</h1>
+                        <h2>Frontend Developer</h2>
+                        <div>
+                            <button>Download CV</button>
+                            <button>Contacnt Info</button>
+                        </div>
+                        <div>
+                            <img src="" />
+                            <img src="" />
+                        </div>
+                    </section>
                 </div>
             </div>
         </>
