@@ -13,7 +13,7 @@ const HeroSection = () => {
                     </div>
 
                     <section className='justify-items-center content-center'>
-                        <h3 className='text-2xl'>Hello I'm</h3>
+                        <h3 className='text-2xl'>Hello I&apos;m</h3>
                         <h1 className='text-6xl font-bold'>Utkarsh More</h1>
                         <h2 className='text-4xl text-gray-400 font-semibold py-3'>Frontend Developer</h2>
                         <div className='pt-12 grid grid-cols-2 gap-4'>
