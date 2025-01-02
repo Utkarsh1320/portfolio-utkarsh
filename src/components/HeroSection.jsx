@@ -7,12 +7,9 @@ const HeroSection = () => {
     return (
         <>
             <div className="flex flex-col min-h-screen">
-                {/* Navbar */}
                 <Navbar />
 
-                {/* Hero Content */}
                 <div className="flex flex-col lg:flex-row items-center justify-center flex-grow gap-10 px-6 md:px-12 lg:px-24">
-                    {/* Image Section */}
                     <div className="flex justify-center lg:justify-start w-full lg:w-1/3">
                         <img
                             className="w-3/4 md:w-2/3 lg:w-full max-w-md"
