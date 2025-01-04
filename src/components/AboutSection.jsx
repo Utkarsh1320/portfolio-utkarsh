@@ -3,8 +3,10 @@ import aboutImg from '../assets/AboutImg.png';
 const AboutSection = () => {
     return (
         <>
-            <div className="flex flex-col min-h-screen px-4 md:px-10 lg:px-20">
-                <div className="text-4xl md:text-5xl font-semibold text-center py-8">
+            <div className="flex flex-col min-h-screen px-10 md:px-10 lg:px-30 mx-0 lg:mx-24 md:mx-24">
+                <p className="text-center mt-4 font-roboto font-light text-gray-600">Know about my</p>
+
+                <div className="text-4xl md:text-5xl font-semibold text-center pb-8">
                     About Me
                 </div>
 
