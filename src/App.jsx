@@ -1,6 +1,5 @@
 import './App.css'
-import HomesPage from './pages/homesPage'
-
+import HomesPage from './pages/HomesPage'
 function App() {
 
 
