@@ -1,6 +1,6 @@
 import Explorer from "./Explorer";
 import Footer from "./Footer";
-import NavBar from "./NavBar";
+import NavBar from "./Navbar";
 import Pages from "./Pages";
 import SideBar from "./SideBar";
 import { useTheme } from "../context/ThemeContext";
