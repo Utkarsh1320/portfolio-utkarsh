@@ -7,12 +7,12 @@ function Articles() {
       <Helmet>
         <title>Utkarsh More | Experience</title>
       </Helmet>
-      <div className="p-8 h-full flex flex-col overflow-hidden max-h-full bg-gray-900 text-white">
+      <div className="px-3 h-full flex flex-col overflow-hidden max-h-full bg-gray-900 text-white">
         <h1 className="pb-8 text-3xl font-semibold text-gray-200 flex-shrink-0">
           Experience
         </h1>
 
-        <div className="space-y-6 overflow-y-auto flex-grow pr-4 max-h-full border border-gray-700 p-4 rounded-md bg-gray-800">
+        <div className="space-y-6 overflow-y-auto flex-grow pr-4 max-h-full border border-gray-700 p-4 rounded-md bg-gray-800 relative">
           <div>
             <h2 className="text-xl font-bold text-gray-300">Full Stack Developer Intern – KoCH Technologies, Waterloo</h2>
             <p className="text-sm text-gray-400">May 2024 – Present</p>

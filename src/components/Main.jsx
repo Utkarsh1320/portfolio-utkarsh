@@ -11,7 +11,9 @@ function Main() {
     <div className={`theme-${theme} h-screen flex flex-col`}>
       <Navbar />
       <main className="flex flex-grow overflow-hidden">
-        <SideBar />
+        <div className="flex-shrink-0">
+          <SideBar />
+        </div>
         <div className="flex-grow flex overflow-hidden">
           <Explorer />
           <Pages />
