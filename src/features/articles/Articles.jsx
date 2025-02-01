@@ -5,7 +5,7 @@ function Articles() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Utkarsh More | Articles</title>
+        <title>Utkarsh More | Experience</title>
       </Helmet>
       <div className="p-8 h-full flex flex-col overflow-hidden max-h-full bg-gray-900 text-white">
         <h1 className="pb-8 text-3xl font-semibold text-gray-200 flex-shrink-0">
