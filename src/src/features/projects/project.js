@@ -9,7 +9,7 @@ export const project = [
       "A Vscode themed developer portfolio website built with React.js and TailwindCSS.",
     image: vscode,
     tags: ["react", "tailwind", "axios"],
-    sourceCode: "https://github.com/manavss/vscode-portfolio-main",
+    sourceCode: "https://github.com/Utkarsh1320/vscode-portfolio-main",
     demo: "https://vscode-portfolio-main.vercel.app/",
   },
   {
@@ -18,7 +18,7 @@ export const project = [
       " This pizza store prioritize UX and clean UI, making it easy for customers to order pizzas.",
     image: pizza,
     tags: ["react", "tailwind", "redux"],
-    sourceCode: "https://github.com/manavss/fast-react-pizza",
+    sourceCode: "https://github.com/Utkarsh1320/fast-react-pizza",
     demo: "https://fast-reactredux-pizza.netlify.app/",
   },
   {
@@ -27,7 +27,7 @@ export const project = [
       "A webapp that allows you to search for countries an thier details .",
     image: rest,
     tags: ["react", "tailwind", "context-api"],
-    sourceCode: "https://github.com/manavss/restCountries",
+    sourceCode: "https://github.com/Utkarsh1320/restCountries",
     demo: "https://restcountrydetails.netlify.app/",
   },
   {
@@ -36,7 +36,7 @@ export const project = [
       "A Dictionary app that lets you search words in and bookmark them for future reference.",
     image: dictionary,
     tags: ["react", "axios", "material-ui"],
-    sourceCode: "https://github.com/manavss/dictionary",
+    sourceCode: "https://github.com/Utkarsh1320/dictionary",
     demo: "https://mydictionarysearch.netlify.app/",
   },
 ];

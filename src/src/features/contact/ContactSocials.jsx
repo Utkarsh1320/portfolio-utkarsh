@@ -7,8 +7,8 @@ function ContactSocials() {
     },
     {
       social: "github",
-      un: "manavss",
-      href: "https://www.github.com/manavss/",
+      un: "Utkarsh1320",
+      href: "https://www.github.com/Utkarsh1320/",
     },
     {
       social: "linkedin",
@@ -22,14 +22,14 @@ function ContactSocials() {
     },
     {
       social: "frontend mentor",
-      un: "manavss",
-      href: "https://www.frontendmentor.io/profile/manavss",
+      un: "Utkarsh1320",
+      href: "https://www.frontendmentor.io/profile/Utkarsh1320",
     },
-{
-social:"dev.to",
-un:"manavss",
-href:"https://www.dev.to"
-}
+    {
+      social: "dev.to",
+      un: "Utkarsh1320",
+      href: "https://www.dev.to"
+    }
   ];
   return (
     <div className="line-container flex flex-col">
