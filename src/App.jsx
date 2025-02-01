@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Main from "./components/Main";
 import Home from "./features/home/Home";
 import About from "./features/about/About";
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
   },
 ]);
 
+=======
+import './App.css'
+import HomesPage from './pages/HomesPage'
+>>>>>>> 88e599cc7812b71f039a4c59b86a0583c50b0ba1
 function App() {
   return (
     <ThemeProvider>
