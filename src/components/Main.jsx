@@ -1,6 +1,6 @@
 import Explorer from "./Explorer";
 import Footer from "./Footer";
-import NavBar from "./Navbar";
+import Navbar from "./Navbar";
 import Pages from "./Pages";
 import SideBar from "./SideBar";
 import { useTheme } from "../context/ThemeContext";
@@ -9,7 +9,7 @@ function Main() {
   const { theme } = useTheme();
   return (
     <div className={`theme-${theme}`}>
-      <NavBar />
+      <Navbar />
       <main className=" flex">
         <SideBar />
         <Explorer />
