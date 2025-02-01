@@ -3,9 +3,9 @@ import Tabs from "./Tabs";
 
 function Pages() {
   return (
-    <div className=" w-full overflow-x-auto bg-mainBg">
+    <div className="w-full overflow-hidden bg-mainBg flex flex-col h-full">
       <Tabs />
-      <section className="min-h-[85vh]  bg-mainBg">
+      <section className="flex-grow bg-mainBg overflow-y-auto">
         <Outlet />
       </section>
     </div>

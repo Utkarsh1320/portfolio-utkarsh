@@ -39,7 +39,7 @@ const sidebarBottomItems = [
 function SideBar() {
   const location = useLocation();
   return (
-    <aside className="flex w-[4.2vw] min-w-[40px] flex-col justify-between bg-sidebarBg  py-2 md:min-h-[calc(100vh-65px)]">
+    <aside className="flex w-[4.2vw] min-w-[40px] flex-col justify-between bg-sidebarBg  py-2 md:min-h-[calc(100vh-65px)] border border-blue-950">
       <div className="flex flex-col items-start  justify-center gap-y-1 md:gap-y-3 ">
         {sidebarTopItems.map(({ Icon, path }) => {
           return (

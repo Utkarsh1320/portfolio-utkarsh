@@ -8,12 +8,14 @@ import { useTheme } from "../context/ThemeContext";
 function Main() {
   const { theme } = useTheme();
   return (
-    <div className={`theme-${theme}`}>
+    <div className={`theme-${theme} h-screen flex flex-col`}>
       <Navbar />
-      <main className=" flex">
+      <main className="flex flex-grow overflow-hidden">
         <SideBar />
-        <Explorer />
-        <Pages />
+        <div className="flex-grow flex overflow-hidden">
+          <Explorer />
+          <Pages />
+        </div>
       </main>
       <Footer />
     </div>
