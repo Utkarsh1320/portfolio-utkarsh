@@ -1,6 +1,6 @@
 import dictionary from "../../assets/images/dictionary.jpg";
 import rest from "../../assets/images/rest.jpg";
-import port from "../../assets/images/port.png";
+import port from "../../assets/images/Port.png";
 import snkrs from "../../assets/images/snkr.png";
 export const project = [
   {
