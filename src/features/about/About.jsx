@@ -5,12 +5,14 @@ import css_icon from "../../assets/icons/css_icon.svg";
 import js_icon from "../../assets/icons/js_icon.svg";
 import tailwind_icon from "../../assets/icons/tw-icon.svg";
 import java from "../../assets/icons/java.svg";
+import angular from "../../assets/icons/Angular.svg"
 function About() {
   const techStack = [
     html_icon,
     css_icon,
     js_icon,
     react_icon,
+    angular,
     tailwind_icon,
     java,
   ];
