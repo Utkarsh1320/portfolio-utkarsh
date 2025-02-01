@@ -18,6 +18,11 @@ const TabsItems = [
     icon: `${html_icon}`,
   },
   {
+    name: "experience.json",
+    path: "/experience",
+    icon: `${json_icon}`
+  },
+  {
     name: "contact.css",
     path: "/contact",
     icon: `${css_icon}`,
@@ -40,8 +45,8 @@ function Tabs() {
             key={tab.name}
             to={`${tab.path}`}
             className={`flex ${location.pathname === tab.path
-                ? " border-t-2 border-t-accentColor bg-tabActiveBg"
-                : "border-2 bg-tabBg"
+              ? " border-t-2 border-t-accentColor bg-tabActiveBg"
+              : "border-2 bg-tabBg"
               }   min-w-max gap-x-1  border-tabBorder  px-3 text-textColor   md:py-1`}
           >
             <img src={tab.icon} height={20} width={20} alt="react-icon" />

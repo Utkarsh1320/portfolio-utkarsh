@@ -19,6 +19,11 @@ const explorerItems = [
     icon: `${html_icon}`,
   },
   {
+    name: "experience.json",
+    path: "/experience",
+    icon: `${json_icon}`,
+  },
+  {
     name: "contact.css",
     path: "/contact",
     icon: `${css_icon}`,

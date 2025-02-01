@@ -1,5 +1,6 @@
 import Code from "./icons/CodeIcon";
 import Files from "./icons/FilesIcon";
+import Pencil from "./icons/Pencil";
 
 import Mail from "./icons/MailIcon";
 import Account from "./icons/AccountIcon";
@@ -14,6 +15,10 @@ const sidebarTopItems = [
   {
     Icon: Code,
     path: "/projects",
+  },
+  {
+    Icon: Pencil,
+    path: "/experience"
   },
 
   {
