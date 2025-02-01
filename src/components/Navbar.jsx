@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import vscode from "../assets/icons/vscode.ico";
 const list = ["File", "Edit", "View", "Go", "Run", "Terminal", "Help"];
-function NavBar({ theme }) {
+function Navbar({ theme }) {
   return (
     <header className={`  bg-titlebarBg text-textColor `}>
       <nav
@@ -30,4 +30,4 @@ function NavBar({ theme }) {
   );
 }
 // src\assets\icons\vscode.ico
-export default NavBar;
+export default Navbar;
