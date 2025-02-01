@@ -1,35 +1,63 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Main from "./components/Main";
+import Home from "./features/home/Home";
+import About from "./features/about/About";
+import Contact from "./features/contact/Contact";
+import Projects from "./features/projects/Projects";
+import Articles, {
+  loader as ArticlesLoader,
+} from "./features/articles/Articles";
+import Github, { loader as GithubLoader } from "./features/github/Github";
+import Settings from "./features/settings/Settings";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { ThemeProvider } from "./context/ThemeContext";
+import ErrorPage from "./features/error/ErrorPage";
+
+const router = createBrowserRouter([
+  {
+    element: <Main />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
+      },
+      {
+        path: "/articles",
+        element: <Articles />,
+        loader: ArticlesLoader,
+      },
+      {
+        path: "/github",
+        element: <Github />,
+        loader: GithubLoader,
+      },
+      {
+        path: "/settings",
+        element: <Settings />,
+      },
+    ],
+  },
+]);
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;
