@@ -23,14 +23,14 @@ function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
           >
             Source Code
           </a>
-          <a
+          {/* <a
             href={demo}
             className=" px-1 py-1 text-lg font-semibold underline decoration-accentColor hover:border-2 hover:border-accentColor hover:no-underline  "
             target="_blank"
             rel="noreferrer"
           >
             Live Demo
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

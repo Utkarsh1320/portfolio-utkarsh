@@ -24,7 +24,7 @@ export const project = [
   {
     title: "Luxe Cart",
     description:
-      "A web store for variety items to purchase. Built with React and MaterialUi with features like infinite scrolling.",
+      "A web store, Built with React and MaterialUi with features like infinite scrolling.",
     image: rest,
     tags: ["react", "tailwind", "context-api"],
     sourceCode: "https://github.com/bilam059/luxeCart-project-group7",
@@ -33,7 +33,7 @@ export const project = [
   {
     title: "T-store",
     description:
-      "Always Be in trend.",
+      "Always Be in trend, ecommerce with fast Ui and multi user handling capability.",
     image: dictionary,
     tags: ["react", "axios", "material-ui"],
     sourceCode: "https://github.com/Utkarsh1320/TStore",
