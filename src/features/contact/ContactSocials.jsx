@@ -12,7 +12,7 @@ function ContactSocials() {
     },
     {
       social: "linkedin",
-      un: "manavshete",
+      un: "Utkarsh More",
       href: "https://www.linkedin.com/in/utkarsh-more-dev1302",
     },
     {
