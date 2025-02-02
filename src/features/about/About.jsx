@@ -22,7 +22,7 @@ function About() {
       <Helmet>
         <title>Utkarsh More | About</title>
       </Helmet>
-      <div className=" flex flex-col  items-center justify-center gap-y-4 p-8 text-textColor xl:gap-y-8">
+      <div className=" flex flex-col  items-center justify-center gap-y-4 sm:p-0 md:p-8 text-textColor xl:gap-y-8">
         <div className="flex flex-col items-center gap-x-48 xl:flex-row">
           <div className=" xl:order-2">
             <div className=" box border-4 border-accentColor xl:h-[300px] xl:w-[300px] "></div>
