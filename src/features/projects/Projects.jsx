@@ -7,7 +7,7 @@ function projects() {
       <Helmet>
         <title>Utkarsh More | Projects</title>
       </Helmet>
-      <div className=" bg-mainBg p-8">
+      <div className=" h-[85vh] overflow-y-auto bg-mainBg p-8">
         <h1 className="pb-5 text-3xl text-textColor">
           Stuff I&apos;ve Built So Far
         </h1>
