@@ -15,6 +15,11 @@ function About() {
     angular,
     tailwind_icon,
     java,
+    // CI / CD,
+    // Docker,
+    // Kubernetes,
+    // AWS,
+
   ];
 
   return (
@@ -32,7 +37,7 @@ function About() {
               Software Developer
             </h1>
             <h2 className="text-xl max-sm:hidden">
-              Hi, I'm Utkarsh More. A passionate Software Developer <br />{" "}
+              Hi, I&apos;m Utkarsh More. A passionate Software Developer <br />{" "}
               based in Canada. 📍
             </h2>
           </div>
@@ -43,17 +48,15 @@ function About() {
               About me:
             </h2>
             <p className="text-lg font-medium leading-tight text-slate-400 xl:text-xl">
-              As a Junior Software Developer | Front-End Developer , I possess an impressive arsenal
-              of skills in HTML, CSS, JavaScript, React and Tailwind. I excel in
-              designing and maintaining responsive websites that offer a smooth
-              user experience. I am also a team player who thrives in
-              collaborating with cross-functional teams to produce outstanding
-              web applications.
+              A dynamic and detail-oriented Software Developer experience in designing, developing,
+              and deploying scalable web applications. Proficient in product development,
+              leveraging modern frameworks and
+              technologies to deliver robust solutions.
             </p>
           </div>
           <div className=" xl:w-1/2">
             <h3 className=" my-4 text-center text-lg font-semibold text-accentColor underline-offset-4 max-sm:underline xl:text-3xl ">
-              Tech Stack{" "}
+              Technologies I worked on!{" "}
             </h3>
             <div className="flex items-center justify-center gap-5 max-sm:grid max-sm:grid-cols-3">
               {techStack.map((item, i) => {

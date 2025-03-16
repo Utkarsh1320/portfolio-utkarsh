@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 function Home() {
-  const words = ["Front End Web Developer", "Software Developer", "Full Stack Developer"];
+  const words = useMemo(() => ["Software Developer", "Full Stack Developer"], []);
   const [text, setText] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -33,7 +33,7 @@ function Home() {
     }
 
     return () => clearTimeout(timeout);
-  }, [text, isDeleting, wordIndex]);
+  }, [text, isDeleting, wordIndex, words, speed]);
 
   return (
     <HelmetProvider>
@@ -44,7 +44,7 @@ function Home() {
       <div className="relative flex min-h-[75svh] items-center overflow-hidden">
         <div className="absolute left-10 z-10 gap-y-0 text-[12rem] font-extrabold leading-none text-bgText max-sm:hidden">
           <h1>I BUILD</h1>
-          <h1>WEB APPS</h1>
+          <h2>WEB Solutions</h2>
         </div>
         <div className="relative z-20 flex flex-col items-center gap-y-10 p-4 md:w-full md:flex-row md:items-center md:justify-between md:px-28">
           <div>
