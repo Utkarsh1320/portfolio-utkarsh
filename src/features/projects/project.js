@@ -19,7 +19,7 @@ export const project = [
     image: snkrs,
     tags: ["react", "tailwind", "redux"],
     sourceCode: "https://github.com/Utkarsh1320/sneakerama",
-    demo: "/",
+    demo: "https://remarkable-sprite-930713.netlify.app/",
   },
   {
     title: "Luxe Cart",
